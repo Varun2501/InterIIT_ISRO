@@ -1,4 +1,4 @@
-# Inter IIT Tech Meet 9.0 <img src="assets/isro-logo.jpeg" width="150" align="right">
+# Inter IIT Tech Meet 9.0 <img src="assets/isro-logo.jpeg" width="200" align="right">
 ## Web Based Visualization Tool For Astrosat Observations
 
 ### Table of Contents
