@@ -19,9 +19,6 @@ idx,d2d,d3d = (sourcecat).match_to_catalog_sky(astrocat)  #crossmatch
 max_radius = 120./3600 #120 arcsec 
 
 df['Publications_Flag'] = np.zeros(len(df))
-df['Closest_Dist_2'] = np.zeros(len(df))
-df['Closest_Name_2'] = np.zeros(len(df))
-df['Closest_Type_2'] = np.zeros(len(df))
 df['Publications'] = np.zeros(len(df))
 
 Required_Types = list(['LMXB','HMXB','LPV*','GlCl','EB*','XB','Be*','Symbiotic*']) #only sources of this type will be crossmatched to avoid errors
@@ -32,14 +29,10 @@ for id1, (closest_id2, dist) in enumerate(zip(idx, d2d)):
     if closest_dist < max_radius:
         if f['Source_Type'][closest_id2] in Required_Types:         
             df['Publications_Flag'][id1] = 1 #Set Flag = 1 if there is a match
-            df['Closest_Dist_2'][id1] = closest_dist*3600 
-            df['Closest_Name_2'][id1] = f['SIMBAD_Name'][closest_id2]
-            df['Closest_Type_2'][id1] = f['Source_Type'][closest_id2]
             df['Publications'][id1] = f['Publications'][closest_id2]
 
     else:
         pass
-
 
 print(df.head())
 df.to_csv('Complete_Catalog.csv', index=False)
