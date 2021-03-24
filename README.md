@@ -1,4 +1,4 @@
-# Inter IIT Tech Meet 9.0 <img src="assets/isro-logo.jpeg" height="40" width="">
+# Inter IIT Tech Meet 9.0 <img src="assets/isro-logo.jpeg" width="150" align="right">
 ## Web Based Visualization Tool For Astrosat Observations
 
 ### Table of Contents
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 #### Contributers
 1. [Gurbaaz Singh Nandra](https://github.com/gurbaaz27)
 2. [Varun Muralitharan](https://github.com/Varun2501)
-3. [Varun Singh]()
+3. [Varun Singh](https://github.com/varunsng)
 
 ### 2. Preliminary Spectral Analysis of Spectroscopic Binary HIP-61732
 
