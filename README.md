@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 #### Contributers
 1. [Gurbaaz Singh Nandra](https://github.com/gurbaaz27)
-2. [Varun Muralitharan](https://github.com/Varun2501)
+2. [Varun Muralidharan](https://github.com/Varun2501)
 3. [Varun Singh](https://github.com/varunsng)
 
 ### 2. Preliminary Spectral Analysis of Spectroscopic Binary HIP-61732
