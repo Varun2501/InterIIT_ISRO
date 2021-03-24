@@ -7,19 +7,16 @@ from astropy.coordinates import SkyCoord
 Simbad.add_votable_fields('otype')
 
 df = pd.read_table('AS_observations_cat_Sept2018.txt')
-df = df.drop(df.columns[[0,1,2,3]], axis = 1, inplace = False)
-df.columns = ['ra', 'dec', 'Object', 'Instrument']
+df = df.drop(df.columns[[0]], axis = 1, inplace = False)
+df.columns = ['Date_Observed', 'Proposal_ID', 'Target_ID', 'ra', 'dec', 'Observation_ID', 'Instrument']
 
-df['Source'] = np.zeros(len(df))
+df['Time_Observed'] = np.zeros(len(df))
 
 for i in range(len(df)):
-    data = df['Object'][i].split(':')
-    try:
-        df['Source'][i] = data[2]
-    except IndexError:
-        df['Source'][i] = data[0]
+    data = df['Date_Observed'][i].split(" ")
+    df['Date_Observed'][i] = data[0]
+    df['Time_Observed'][i] = data[1]
 
-df = df.drop(columns=['Object'])
 
 ra = df['ra']
 dec = df['dec']
