@@ -7,6 +7,7 @@ from astropy.coordinates import SkyCoord
 
 df = pd.read_csv('Publications_With_Coordinates.csv')
 df = df[df['SIMBAD_Name'] != '0.0']
+df = df.drop_duplicates(subset=['SIMBAD_Name', 'Publications'], keep='first')
 
 df_new = df.groupby(['SIMBAD_Name'])['Publications'].apply(','.join).reset_index()
 df_new = df_new.sort_values(by=['SIMBAD_Name']).reset_index()
