@@ -79,16 +79,16 @@ python analysis.py
 ```
 Output: 
 ```bash 
-Initial Estimate of Period from the LombScargle(days): 583.8284324893621
-Semi Amplitudes(km/s); K1: 9.207458315319723
-Semi Amplitudes(km/s); K2: 13.057301121256861
-Time of Periastron passage(days); To: 415.5640298008369
+Initial Estimate of Period from the LombScargle (days): 583.8284324893621
+Semi Amplitude(km/s); K1: 9.207458315319723
+Semi Amplitude(km/s); K2: 13.057301121256861
+Time of Periastron passage(days); To: 118.0820701823903
 Period(days); P: 595.2145156801245
 Systemic Velocity(km/s); Vo: -15.77453053329902
 Eccentricity; e: 0.3394044058118484
-Argument of Periastro(degs); w: 64.5844448428194
+Argument of Periastron(degs); w: 64.5844448428194
 ```
-<img src="HIP61732-Analysis/plot.png"></img>
+<img src="assets/plot.png"></img>
 
 #### Contributers
 1. [Mohammad Saad](https://github.com/saad369)
@@ -99,6 +99,7 @@ Argument of Periastro(degs); w: 64.5844448428194
 .
  * [assets](./assets)
    * [isro-logo.jpeg](./assets/isro-logo.jpeg)
+   * [plot.png](./assets/plot.png)
  * [Data-Processing](./Data-Processing)
    * [Catalog-A](./Data-Processing/Catalog-A)
      * [Final_Catalog.py](./Data-Processing/Catalog-A/Final_Catalog.py)
