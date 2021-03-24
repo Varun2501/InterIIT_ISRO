@@ -41,11 +41,6 @@ pip install -r requirements.txt
 ```
 
 
-#### Contributers
-1. [Gurbaaz Singh Nandra](https://github.com/gurbaaz27)
-2. [Varun Muralidharan](https://github.com/Varun2501)
-3. [Varun Singh](https://github.com/varunsng)
-
 ### 2. Preliminary Spectral Analysis of Spectroscopic Binary HIP-61732
 
 #### Content
@@ -90,9 +85,6 @@ Argument of Periastron(degs); w: 64.5844448428194
 ```
 <img src="assets/plot.png"></img>
 
-#### Contributers
-1. [Mohammad Saad](https://github.com/saad369)
-2. [Mubashshir Uddin](https://github.com/meandme234)
 
 ## Project tree
 
