@@ -54,7 +54,7 @@ pip install -r requirements.txt
 | analysis.py | Script to carry out the analysis of the spectroscopic binary  |
 | HIP61732-aladin.jpeg | Image of the binary as can be seen on the AstroSat Visualiser |
 | HIP61732.csv | Data used for the analysis  |
-| ISRO-report.pdf | Detailed report covering the analysis and the underlying physics and mathematics |
+| Analysis_Report.pdf | Detailed report covering the analysis and the underlying physics and mathematics |
 | plot.png | Saved image of matplotlib plot from the analysis  |
 | requirements.txt | Dependencies required to run the script |
 
@@ -94,25 +94,12 @@ Argument of Periastro(degs); w: 64.5844448428194
 1. [Mohammad Saad](https://github.com/saad369)
 2. [Mubashshir Uddin](https://github.com/meandme234)
 
-# Project tree
+## Project tree
 
 .
- * [HIP61732-Analysis](./HIP61732-Analysis)
-   * [HIP61732.csv](./HIP61732-Analysis/HIP61732.csv)
-   * [ISRO-report.pdf](./HIP61732-Analysis/ISRO-report.pdf)
-   * [plot.png](./HIP61732-Analysis/plot.png)
-   * [HIP61732-aladin.jpeg](./HIP61732-Analysis/HIP61732-aladin.jpeg)
-   * [requirements.txt](./HIP61732-Analysis/requirements.txt)
-   * [analysis.py](./HIP61732-Analysis/analysis.py)
+ * [assets](./assets)
+   * [isro-logo.jpeg](./assets/isro-logo.jpeg)
  * [Data-Processing](./Data-Processing)
-   * [Publications](./Data-Processing/Publications)
-     * [AS_publications2019-21.txt](./Data-Processing/Publications/AS_publications2019-21.txt)
-     * [publications-list.csv](./Data-Processing/Publications/publications-list.csv)
-     * [source2publication-mapper.py](./Data-Processing/Publications/source2publication-mapper.py)
-     * [source2publications.csv](./Data-Processing/Publications/source2publications.csv)
-     * [publication-finaliser.py](./Data-Processing/Publications/publication-finaliser.py)
-     * [publications-list-final.csv](./Data-Processing/Publications/publications-list-final.csv)
-     * [extracter.py](./Data-Processing/Publications/extracter.py)
    * [Catalog-A](./Data-Processing/Catalog-A)
      * [Final_Catalog.py](./Data-Processing/Catalog-A/Final_Catalog.py)
      * [Hcat.csv](./Data-Processing/Catalog-A/Hcat.csv)
@@ -128,6 +115,15 @@ Argument of Periastro(degs); w: 64.5844448428194
      * [Crossmatch_AB.csv](./Data-Processing/Catalog-B-Astrosat/Crossmatch_AB.csv)
      * [Crossmatch.py](./Data-Processing/Catalog-B-Astrosat/Crossmatch.py)
      * [Sources.py](./Data-Processing/Catalog-B-Astrosat/Sources.py)
+   * [Complete_Catalog.csv](./Data-Processing/Complete_Catalog.csv)
+   * [Publications](./Data-Processing/Publications)
+     * [AS_publications2019-21.txt](./Data-Processing/Publications/AS_publications2019-21.txt)
+     * [extracter.py](./Data-Processing/Publications/extracter.py)
+     * [publication-finaliser.py](./Data-Processing/Publications/publication-finaliser.py)
+     * [publications-list.csv](./Data-Processing/Publications/publications-list.csv)
+     * [publications-list-final.csv](./Data-Processing/Publications/publications-list-final.csv)
+     * [source2publication-mapper.py](./Data-Processing/Publications/source2publication-mapper.py)
+     * [source2publications.csv](./Data-Processing/Publications/source2publications.csv)
    * [Publications_Crossmatch](./Data-Processing/Publications_Crossmatch)
      * [Complete_Catalog.csv](./Data-Processing/Publications_Crossmatch/Complete_Catalog.csv)
      * [Crossmatch_AB.csv](./Data-Processing/Publications_Crossmatch/Crossmatch_AB.csv)
@@ -139,8 +135,12 @@ Argument of Periastro(degs); w: 64.5844448428194
      * [Publications_With_Coordinates.csv](./Data-Processing/Publications_Crossmatch/Updated/Publications_With_Coordinates.csv)
      * [Repeated_Source_Publications.py](./Data-Processing/Publications_Crossmatch/Updated/Repeated_Source_Publications.py)
      * [source2publications.csv](./Data-Processing/Publications_Crossmatch/Updated/source2publications.csv)
-   * [Complete_Catalog.csv](./Data-Processing/Complete_Catalog.csv)
    * [requirements.txt](./Data-Processing/requirements.txt)
- * [assets](./assets)
-   * [isro-logo.jpeg](./assets/isro-logo.jpeg)
+ * [HIP61732-Analysis](./HIP61732-Analysis)
+   * [analysis.py](./HIP61732-Analysis/analysis.py)
+   * [HIP61732-aladin.jpeg](./HIP61732-Analysis/HIP61732-aladin.jpeg)
+   * [HIP61732.csv](./HIP61732-Analysis/HIP61732.csv)
+   * [plot.png](./HIP61732-Analysis/plot.png)
+   * [requirements.txt](./HIP61732-Analysis/requirements.txt)
+   * [Analysis_Report.pdf](./HIP61732-Analysis/Analysis_Report.pdf)
  * [README.md](./README.md)
